@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "fieldstatus-backend"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-16jttjz8l020r"
+s3_prefix = "fieldstatus-backend"
+region = "eu-west-1"
+profile = "lemavisima"
+capabilities = "CAPABILITY_IAM"
